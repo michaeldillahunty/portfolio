@@ -1,10 +1,10 @@
-var youtube = "https://www.youtube.com/fknight/";
-var twitter = "https://www.twitter.com/forrestpknight/";
-var password = "fkcodes";
-var linkedin = "https://www.linkedin.com/in/forrestpknight/";
-var instagram = "https://www.instagram.com/forrestpknight/";
-var github = "https://github.com/forrestknight/";
-var email = 'mailto:forrest@fkcodes.com';
+// var youtube = "https://www.youtube.com/fknight/";
+var twitter = "https://www.twitter.com/mdillahunty/";
+var password = "dillahunty";
+var linkedin = "https://www.linkedin.com/in/michaeldillahunty/";
+var instagram = "https://www.instagram.com/michaeldillahunty/";
+var github = "https://github.com/michaeldillahunty/";
+var email = 'mailto:dillahuntym01@gmail.com';
 
 whois = [
   "<br>",
