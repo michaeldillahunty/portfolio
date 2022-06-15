@@ -17,10 +17,10 @@ setTimeout(function() {
 window.addEventListener("keyup", enterKey);
 
 console.log(
-  "%cYou hacked my password!ðŸ˜ ",
+  "%cYou hacked my password!😠",
   "color: #04ff00; font-weight: bold; font-size: 24px;"
 );
-console.log("%cPassword: '" + password + "' - I wonder what it does?ðŸ¤”", "color: grey");
+console.log("%cPassword: '" + password + "' - I wonder what it does?🤔", "color: grey");
 
 //init
 textarea.value = "";
@@ -109,7 +109,7 @@ function commander(cmd) {
       loopLines(projects, "color2 margin", 80);
       break;
     case "password":
-      addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!ðŸ˜‚</span>", "error", 100);
+      addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!😂</span>", "error", 100);
       break;
     case "history":
       addLine("<br>", "", 0);
