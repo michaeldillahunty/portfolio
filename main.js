@@ -16,12 +16,6 @@ setTimeout(function() {
 
 window.addEventListener("keyup", enterKey);
 
-console.log(
-  "%cYou hacked my password!😠",
-  "color: #04ff00; font-weight: bold; font-size: 24px;"
-);
-console.log("%cPassword: '" + password + "' - I wonder what it does?🤔", "color: grey");
-
 //init
 textarea.value = "";
 command.innerHTML = textarea.value;
@@ -101,16 +95,6 @@ function commander(cmd) {
     case "social":
       loopLines(social, "color2 margin", 80);
       break;
-    case "secret":
-      liner.classList.add("password");
-      pw = true;
-      break;
-    case "projects":
-      loopLines(projects, "color2 margin", 80);
-      break;
-    case "password":
-      addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!😂</span>", "error", 100);
-      break;
     case "history":
       addLine("<br>", "", 0);
       loopLines(commands, "color2", 80);
@@ -131,14 +115,6 @@ function commander(cmd) {
       break;
 
     /* socials */
-    // case "youtube":
-    //   addLine("Opening YouTube...", "color2", 80);
-    //   newTab(youtube);
-    //   break;
-    // case "twitter":
-    //   addLine("Opening Twitter...", "color2", 0);
-    //   newTab(twitter);
-    //   break;
     case "linkedin":
       addLine("Opening LinkedIn...", "color2", 0);
       newTab(linkedin);
