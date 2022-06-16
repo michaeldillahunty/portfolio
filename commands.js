@@ -6,7 +6,7 @@ var instagram = "https://www.instagram.com/forrestpknight/";
 var github = "https://github.com/forrestknight/";
 var email = 'mailto:forrest@fkcodes.com';
 
-whois = [
+about = [
   "<br>",
   "👋 Michael Dillahunty",
   "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
@@ -24,11 +24,11 @@ whois = [
   "<br>"
 ];
 
-whoami = [
-  "<br>",
-  "The paradox of “Who am I?” is: we never know, but, we constantly find out.",
-  "<br>"
-];
+// whoami = [
+//   "<br>",
+//   "The paradox of “Who am I?” is: we never know, but, we constantly find out.",
+//   "<br>"
+// ];
 
 social = [
   "<br>",
@@ -54,9 +54,9 @@ projects = [
 
 help = [
   "<br>",
-  '<span class="command">whois</span>          Who is Forrest?',
-  '<span class="command">whoami</span>         Who are you?',
-  '<span class="command">video</span>          View YouTube videos',
+  '<span class="command">whois</span>          About',
+  // '<span class="command">whoami</span>         Who are you?',
+  // '<span class="command">video</span>          View YouTube videos',
   '<span class="command">social</span>         Display social networks',
   '<span class="command">secret</span>         Find the password',
   '<span class="command">projects</span>       View coding projects',

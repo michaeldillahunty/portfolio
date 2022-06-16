@@ -88,10 +88,10 @@ function commander(cmd) {
     case "whoami":
       loopLines(whoami, "color2 margin", 80);
       break;
-    case "video":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
-      break;
+    // case "video":
+    //   addLine("Opening YouTube...", "color2", 80);
+    //   newTab(youtube);
+    //   break;
     case "sudo":
       addLine("Oh no, you're not admin...", "color2", 80);
       setTimeout(function() {
