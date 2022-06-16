@@ -82,22 +82,22 @@ function commander(cmd) {
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
-    case "whois":
-      loopLines(whois, "color2 margin", 80);
+    case "about":
+      loopLines(about, "color2 margin", 80);
       break;
-    case "whoami":
-      loopLines(whoami, "color2 margin", 80);
-      break;
+    // case "whoami":
+    //   loopLines(whoami, "color2 margin", 80);
+    //   break;
     // case "video":
     //   addLine("Opening YouTube...", "color2", 80);
     //   newTab(youtube);
     //   break;
-    case "sudo":
-      addLine("Oh no, you're not admin...", "color2", 80);
-      setTimeout(function() {
-        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-      }, 1000); 
-      break;
+    // case "sudo":
+    //   addLine("Oh no, you're not admin...", "color2", 80);
+    //   setTimeout(function() {
+    //     window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    //   }, 1000); 
+    //   break;
     case "social":
       loopLines(social, "color2 margin", 80);
       break;
@@ -117,7 +117,7 @@ function commander(cmd) {
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
     case "email":
-      addLine('Opening mailto:<a href="mailto:forrest@fkcodes.com">forrest@fkcodes.com</a>...', "color2", 80);
+      addLine('Opening mailto:<a href="mailto:dillahuntym01@gmail.com">dillahuntym01@gmail.com</a>...', "color2", 80);
       newTab(email);
       break;
     case "clear":
@@ -129,26 +129,29 @@ function commander(cmd) {
     case "banner":
       loopLines(banner, "", 80);
       break;
-    // socials
-    case "youtube":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
-      break;
-    case "twitter":
-      addLine("Opening Twitter...", "color2", 0);
-      newTab(twitter);
-      break;
+
+    /* socials */
+    // case "youtube":
+    //   addLine("Opening YouTube...", "color2", 80);
+    //   newTab(youtube);
+    //   break;
+    // case "twitter":
+    //   addLine("Opening Twitter...", "color2", 0);
+    //   newTab(twitter);
+    //   break;
     case "linkedin":
       addLine("Opening LinkedIn...", "color2", 0);
       newTab(linkedin);
       break;
-    case "instagram":
-      addLine("Opening Instagram...", "color2", 0);
-      newTab(instagram);
-      break;
+    
     case "github":
       addLine("Opening GitHub...", "color2", 0);
       newTab(github);
+      break;
+
+    case "instagram":
+      addLine("Opening Instagram...", "color2", 0);
+      newTab(instagram);
       break;
     default:
       addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
