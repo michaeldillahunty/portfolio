@@ -112,8 +112,8 @@ function commander(cmd) {
       newTab(github);
       break;
 
-    case "instagram":
-      addLine("Opening Instagram...", "color2", 0);
+    case "instagram": // "Opening Instagram"
+      addLine("Instagram Unavailable", "color2", 0);
       newTab(instagram);
       break;
     default:

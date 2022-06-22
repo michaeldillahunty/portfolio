@@ -1,6 +1,6 @@
 /* DATE CREATED: JUNE 14, 2022 */
 var linkedin = "https://www.linkedin.com/in/michaeldillahunty/";
-var instagram = "https://www.instagram.com/michaeldillahunty/";
+var instagram = "https://www.instagram.com/";
 var github = "https://github.com/michaeldillahunty/";
 var email = 'mailto:dillahuntym01@gmail.com';
 
