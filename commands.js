@@ -14,6 +14,7 @@ about = [
 
 social = [
   "<br>",
+  '(clickable links)',
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/michaeldillahunty' + "</a>",
   'github         <a href="' + github + '" target="_blank">github/michaeldillahunty' + "</a>",
   'instagram      <a href="' + instagram + '" target="_blank">instagram/michaeldillahunty' + '</a>',
