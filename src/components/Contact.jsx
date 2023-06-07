@@ -32,7 +32,7 @@ function Contact() {
                />
                <button
                   type="button"
-                  className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-yellow-500">
+                  className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-yellow-600">
                   Contact me
                </button>
             </form>
