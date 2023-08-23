@@ -97,7 +97,7 @@ function App() {
 			onClick={handleThemeSwitch}
 			className="fixed p-2 z-10 right-10 top-4 text-lg p-1 rounded-md"
          style={{
-            backgroundColor: theme === 'dark' ? '#DB7B00' : '#DB7B00',
+            backgroundColor: theme === 'dark' ? '#484f58' : '#484f58',
             color: theme === 'dark' ? '#000000' : '#FFFFFF',
             padding: '1px',
             borderRadius: 'md'
@@ -105,7 +105,7 @@ function App() {
 		>
 			{theme === 'dark' ? bolt_slash : bolt}
 		</button>
-		<div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
+		<div className="bg-white dark:bg-[#30363d] text-stone-900 dark:text-stone-300 min-h-screen font-inter">
 			<div className="max-w-5xl w-11/12 mx-auto">
 				<Intro />
 				<Portfolio />

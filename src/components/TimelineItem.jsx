@@ -17,7 +17,12 @@ function TimelineItem({year, title, duration, details}) {
                </div>
             </p>
             <p className="my-2 text-base font-normal text-stone-500 dark:text-stone-400">
-               {details}
+               {details.split('\n').map((line, index) => (
+                  <React.Fragment key={index}>
+                     {line}
+                     <br />
+                  </React.Fragment>
+               ))}
             </p>
          </li>
       </ol>
